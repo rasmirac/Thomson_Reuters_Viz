@@ -11,3 +11,5 @@ The script requires the packages *zoo*, *scales*, *ggplot2*, and *gridExtra*. Fu
 **Please set the session directory in the R console to the working directory.**
 
 There are optional commands in the code to create new .csv files with the relative change calculations. Uncomment these `write.csv()` calls to save the new data frames to the data folder. 
+
+This code produces 5 plots. 

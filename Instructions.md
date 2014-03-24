@@ -6,7 +6,7 @@ Instructions
 
 In order to run final_plot.R, you must download the folder titled *data*. This folder contains .csv files with the Google search volume data for 'debt' and the DJIA data. 
 
-The script requires the packages *zoo*, *scales*, *ggplot2*, and *gridExtra*. Futher, in order for the code to run properly, the final_plot.R file and the data folder **must** be in the same directory. 
+The script requires the packages *zoo*, *scales*, *ggplot2*, and *gridExtra*. Further, in order for the code to run properly, the final_plot.R file and the data folder **must** be in the same directory. 
 
 **Please set the session directory in the R console to the working directory.**
 

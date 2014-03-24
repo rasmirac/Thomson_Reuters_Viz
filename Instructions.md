@@ -1,5 +1,5 @@
-Instructions for Running final_plot.R
-==
+Instructions 
+====
 ----------
 
 Required Files and Packages

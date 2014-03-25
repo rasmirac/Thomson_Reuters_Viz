@@ -1,6 +1,6 @@
 Instructions for final_plot.R
 ===
-----------
+---
 
 ###Required Files and Packages
 

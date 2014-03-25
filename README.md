@@ -5,7 +5,7 @@ ___
 Replicated visualizations from my time at Thomson Reuters. Original plot can be found at: <http://www.nature.com/srep/2013/130425/srep01684/full/srep01684.html>
 
 ### Plots and Descriptions
-<img src="./plots/plot_1.png" alt="img text" size=1000x500 />
+![Figure 1-1](./plots/plot_1.png)
 <p align="center"> <b>Figure 1</b></p>
 <p align="center"> This plot shows relative change in U.S. Google Trend search volume for 'debt' over a three-week period and the corresponding Dow Jones Industrial Average. The extreme values are removed to make the changes in debt search volume more clear.  </p>
 

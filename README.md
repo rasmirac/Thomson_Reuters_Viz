@@ -6,12 +6,12 @@ Replicated visualizations from my time at Thomson Reuters. Original plot can be 
 
 ### Plots and Descriptions
 ![Figure 1-1](./plots/first_plot.png) 
-**Figure 1** 
+<p align="center"> <b>Figure 1</b></p>
 <p align="center"> This plot shows relative change in U.S. Google Trend search volume for 'debt' over a three-week period and the corresponding Dow Jones Industrial Average. The extreme values are removed to make the changes in debt search volume more clear.  </p>
 
 
 ![Figure 1-1](./plots/second_plot.png)
-__Figure 2__ 
+<p align="center"> <b>Figure 2</b></p>
 <p align="center">  This plot is the same as Figure 1, but contains the extreme values. </p>
 
 
@@ -20,9 +20,9 @@ __Figure 2__
 <p align="center"> Rather than use a three week time window like the above plots, we toggled the window to two weeks. </p>
 
 ![Figure 1-1](./plots/fourth_plot.png)
-<p align="center"> **Figure 4**</p>
+<p align="center"> <b> Figure 4 </b> </p>
 <p align="center"> Again, a change in time window -- this time to one week. </p>
 
 ![Figure 1-1](./plots/fifth_plot.png)
-<p align="center"> **Figure 5**</p>
+<p align="center"> <b> Figure 5 </b> </p>
 <p align="center">This plot shows the relative change at a daily level. There is a clear weekly pattern in the relative changes in search volume. </p>

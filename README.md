@@ -16,7 +16,7 @@ Replicated visualizations from my time at Thomson Reuters. Original plot can be 
 
 
 ![Figure 1-1](./plots/third_plot.png)
-<center> **Figure 3**
+<p align="center"> **Figure 3** </p>
 <p align="center"> Rather than use a three week time window like the above plots, we toggled the window to two weeks. </p>
 
 ![Figure 1-1](./plots/fourth_plot.png)

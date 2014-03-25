@@ -1,4 +1,4 @@
-Thomson_Reuters_Viz
+Thomson Reuters Viz
 ===================
 ___
 

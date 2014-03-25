@@ -11,7 +11,7 @@ Replicated visualizations from my time at Thomson Reuters. Original plot can be 
 
 
 ![Figure 1-1](./plots/second_plot.png)
-<p align="center"> **Figure 2**</p>
+<p align="center"> __Figure 2__ </p>
 <p align="center">  This plot is the same as Figure 1, but contains the extreme values. </p>
 
 

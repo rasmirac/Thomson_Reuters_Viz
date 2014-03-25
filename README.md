@@ -29,7 +29,7 @@ Replicated visualizations from my time at Thomson Reuters. Original plot can be 
 
 ![Figure 1-1](./plots/sixth_plot.png)
 <p align="center"> <b> Figure 6 </b> </p>
-<p align="center">To visually check if there was a 'holiday' effect in the search volume for 'debt', we replicated the graphic for a non-Christian country. This graph shows relative change in India Google Trend search volume for debt over a three-week period and the corresponding Dow Jones Industrial Average.</p>
+<p align="center">To visually check if there was a 'holiday' effect in the search volume for debt, we replicated the graphic for a non-Christian country. This graph shows relative change in India Google Trend search volume for debt over a three-week period and the corresponding Dow Jones Industrial Average.</p>
 
 ![Figure 1-1](./plots/seventh_plot.png)
 <p align="center"> <b> Figure 7 </b> </p>

@@ -111,16 +111,6 @@ final_plot(djiaData, datasetDebt=debtData, 'Search volume data and stock market 
 final_plot_nolimits(djiaData, datasetDebt=debtData, 'Search volume data and stock market moves, t = 3 weeks', 'Relative Search Volume Change over 3 weeks')
 
 # t = Two Weeks
-# line plot for debt relative change, t= 2 weeks
-debt_two <- ggplot(debtData, aes(x=as.Date(start.date, "%Y-%m-%d"), y=as.numeric(relative_changetwo)))+
-  geom_line(aes(group = 1))+
-  xlab("Time, t [Years]")+
-  theme(axis.text.x = element_text(colour = "black"), axis.text.y = element_text(colour = "black")) + 
-  ylab("Relative Change, r(t)") + labs(title ="Search volume data, t = 2 weeks") 
-plot(debt_two)
-
-# density for debt t = 2weeks
-
 # for plot function, name time window of change 'relative_change' in debtData
 debtData$relative_change <- calc_relative_change(2, debtData$debt.volume)
 # final plot, with timeline like in paper
@@ -166,7 +156,8 @@ final_plot_season_india_nl <- ggplot(data = djiaData, aes(x=as.Date(Date, "%B %d
   geom_vline(debtDataIndia, mapping = aes(colour= as.numeric(relative_changeone), xintercept = as.numeric(as.Date(end.date, "%Y-%m-%d"))), stat = 'vline', size = 1.5) + 
   scale_colour_gradient2("Relative Search Volume Change over 1 week", low=muted("navyblue", l=50, c=250), na.value = "white", mid = 'snow1', midpoint = 0, high=muted("red3", l=50, c=150), guide = guide_colorbar(title.vjust = .25, title.position = 'right', title.theme = element_text(size=12, angle = 90)), limits = c(-20, 20), space = 'rgb') +   
   geom_line(data = djiaData, aes(x=as.Date(Date, "%B %d, %Y"), y=Adj.Close), colour = 'black') +
-  theme(axis.text.x = element_text(colour = "black"),  axis.text.y = element_text(colour = "black")) + scale_x_date(labels = date_format("%b, %Y"), breaks = "6 months") + theme_bw() 
+  theme(axis.text.x = element_text(colour = "black"),  axis.text.y = element_text(colour = "black")) + scale_x_date(labels = date_format("%b, %Y"), breaks = "12 months") + theme_bw() 
+
 
 plot(final_plot_season_india_nl)
 
